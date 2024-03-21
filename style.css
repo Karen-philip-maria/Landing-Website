@@ -81,8 +81,6 @@ body{
     body {
       background-color: lightblue;
       margin: 0px;
-      margin-left: 20%;
-      margin-right: 20%;
     }
     #navbar{
         display: grid;
@@ -139,8 +137,8 @@ body{
     }
     #images{
         gap: 4%;
-        width: 300px;
-        display: inline;
+        width: 100px;
+        display: block;
     } 
     #Interface{
         display: flex;
@@ -164,6 +162,10 @@ body{
         width: 230px;   
     }
     #end #footer{
-        width: 300px;
+        width: 200px;
         }
+    #paid{
+        width: 200px;
+        display: inline;
+    }
 }
