@@ -1,0 +1,169 @@
+body{
+}
+#navbar{
+    display: flex;
+   gap: 4%;
+}
+#roger{
+    display: flex;
+}
+#plattform{
+    display: flex;
+}
+#paid{
+ display: flex;
+ gap: 14%;   
+}
+#images{
+   display: flex;
+   width: 30%;
+   gap: 25%;
+}
+#Interface{
+    display: flex;
+    gap: 4%;
+}
+#okay{
+    display: flex;
+    gap: 4%;
+}
+#active{
+    display: flex;
+    gap: 4%;   
+}
+#rings{
+    display: flex;
+}
+#items ,#pass{
+    display: flex;
+}
+#up{
+    color: white;
+    -webkit-text-fill-color: darkmagenta;
+}
+#alls{
+    display: flex;
+    gap: 6%;
+}
+#edin{
+    display: flex;
+}
+#jack{
+    display: flex;
+}
+#edwin{
+    border: 1px solid #555;
+}
+#easy{
+    border: 1px solid #555;  
+}
+#star, #play{
+    display: flex;
+    gap: 4%;
+}
+#over{
+    display: flex;
+    gap: 20%;  
+}
+#footer{
+    display: flex;
+    gap: 7%;
+    background-color: darkslateblue;
+    color: white;
+}
+#end{
+    display: flex;
+    gap: 9%;
+    background-color: black;
+    color: white;
+}
+@media only screen and (max-width: 600px) and (min-width:400px) {
+    body {
+      background-color: lightblue;
+      margin: 0px;
+      margin-left: 20%;
+      margin-right: 20%;
+    }
+    #navbar{
+        display: grid;
+       gap: 4%;
+       width: 5px;
+    }
+  }
+  @media only screen and (max-width: 914px) and (min-width:412px) {
+    body {
+      background-color: white;
+      margin: 0px;
+    }
+    #navbar{
+        display:block;
+        width: 0px;
+    }
+    #images{
+        display: inline;
+        width: 0px;
+        gap: 20%;
+     }
+     #Interface{
+        display: flex;
+        gap: 4%;
+        width: 300px;
+    } 
+    #star{
+        display: block;
+        background-color: white;
+        gap: 4%;
+        width: 340px;
+    }
+    #over{
+        display: flex;
+        width: 0px;
+        gap: 20%;  
+    }
+   #alls{
+    display: flex;
+    width: 0px;
+    gap: 27%;  
+   }
+   #footer, #end{
+   width: 370px;
+   }
+  }
+  @media only screen and (max-width: 653px) and (min-width:280px) {
+    body {
+      background-color: white;
+      margin: 0px;
+    }
+    #navbar{
+        display: inline;
+    }
+    #images{
+        gap: 4%;
+        width: 300px;
+        display: inline;
+    } 
+    #Interface{
+        display: flex;
+        gap: 29%;
+        width: 140px;
+    } 
+    #alls{
+        display: inline;
+        gap: 27%;  
+       }
+       #star{
+        display: block;
+        background-color: white;
+        gap: 4%;
+        width: 230px;
+    }
+    #over{
+        display: block;
+        background-color: white;
+        gap: 4%;
+        width: 230px;   
+    }
+    #end #footer{
+        width: 300px;
+        }
+}
